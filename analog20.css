@@ -1,0 +1,78 @@
+#container {
+  background : #fff;
+  text-align : left;
+  width : 940px;
+  margin-left:auto;
+  margin-right:auto;
+  position : relative;
+}
+
+div.menubar {
+  position : absolute;
+  background : #fff;
+  top : 50px;
+  left : 0px;
+  width : 160px;
+}
+
+div.menu_item {
+  position : relative;
+  top : 50px;
+  left : 0px;
+  width : 160px;
+  padding-bottom : 60px;
+}
+
+DIV.content {
+  position : absolute;
+  top : 90px;
+  left : 130px;
+  z-index : 7;
+  width : 640px;
+  visibility : visible;
+  height : 800px;
+  /* background : #ffffb0; */
+  background : #fff;
+  padding-right : 10px;
+}
+
+div.content_menu {
+  width : 150px;
+  top : 0px;
+  left : 640px;
+  position : relative;
+  z-index : 3;
+  visibility : visible;
+  background : #fff;
+  padding-bottom : 10px;
+  font-size : 0.9em;
+}
+
+div.content_main {
+  position : absolute;
+  width : 620px;
+  top : 0px;
+  left : 0px;
+  z-index : 1;
+}
+
+div.content_title {
+  position : relative;
+  width : 620px;
+  background : #dfb070;/*#d0d080;*/
+  z-index : 1;
+  padding : 0px;
+}
+
+div.content_text {
+  position : relative;
+  width : 610px;
+  left : 10px;
+  z-index : 2;
+}
+
+table, td, tr, th
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
